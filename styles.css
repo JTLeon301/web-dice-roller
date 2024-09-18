@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+h1 {
+    color: #005f99;
+}
+
+#diceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#totalContainer {
+    margin-top: 20px;
+}
+
+#totalContainer h2 {
+    font-size: 24px;
+    color: #005f99;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}

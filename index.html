@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="rollDice()">
+    <h1>Welcome to the Dice Roller</h1>
+    <p>Click the button to roll five 6-sided dice. You can also press Enter to roll again!</p>
+
+    <div id="diceContainer">
+        <div class="row">
+            <img id="dice1" src="dice_images/dice1.png" alt="Dice 1" class="dice">
+            <img id="dice2" src="dice_images/dice1.png" alt="Dice 2" class="dice">
+            <img id="dice3" src="dice_images/dice1.png" alt="Dice 3" class="dice">
+        </div>
+        <div class="row">
+            <img id="dice4" src="dice_images/dice1.png" alt="Dice 4" class="dice">
+            <img id="dice5" src="dice_images/dice1.png" alt="Dice 5" class="dice">
+        </div>
+    </div>
+
+    <div id="totalContainer">
+        <h2>Total: <span id="diceTotal">0</span></h2>
+    </div>
+
+    <button id="rollButton" onclick="rollDice()" autofocus>Roll Dice</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
