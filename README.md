@@ -1,4 +1,6 @@
 # Dice Roller Web Application
+Name: Jaiden Leonard
+Email: jaidentleonard@lewisu.edu
 
 This is a simple web application that simulates rolling five 6-sided dice. It provides a clean and aesthetically pleasing user interface and offers functionality to roll the dice at the click of a button or by pressing the "Enter" key. The application is hosted on Microsoft Azure.
 
